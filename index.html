@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com/">
+    <link rel="preconnect" href="https://fonts.gstatic.com/" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Aref+Ruqaa:wght@400;700&amp;display=swap" rel="stylesheet">
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title id="title">Electron Configuration Calculator</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='assests/style.css'>
+    <link rel="icon" type="image/x-icon" href="assests/imgs/c.png">
+</head>
+<body>
+
+    <!--Header-->
+    <nav class="navbar bg-body-tertiary" class="container">
+        <div class="container-fluid">
+            <header class="Main"> Electron Configuration Calculator </header>
+        </div>
+      </nav>
+    <!---->
+
+    <!--result-->
+        <div class="container">
+            <div class="CoMain">
+                <label class="labels">
+                    Element Name :
+                    <br>
+                    <span class="result" id="ele"></span>
+                </label>
+                    <br>
+                <label  class="labels">Electron Configuration : 
+                    <br>
+                    <span class="result"  id="elex"></span>
+                </label>
+                <br>
+                <label class="labels">Abbreviated Electron Configuration : 
+                    <br>
+                    <span class="result"  id="elea"></span>
+                </label>
+                <br>    
+            </div>
+        </div>
+
+        <!---->
+<br>
+        <!--Work-->
+
+
+        <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button class="btn" id="H"> H [1] </button>
+                <button class="btn" id="He">He [2]</button>
+                <button class="btn" id="Li">Li [3]</button>
+                <button class="btn" id="Be">Be [4]</button>
+                <button class="btn" id="B">B [5]</button>
+                <button class="btn" id="C">C [6]</button>
+                <button class="btn" id="N">N [7]</button>
+                <button class="btn" id="O">O [8]</button>
+                <button class="btn" id="F">F [9]</button>
+                <button class="btn" id="Ne">Ne [10]</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button class="btn" id="Na">Na [11]</button>
+                <button class="btn" id="Mg">Mg [12]</button>
+                <button class="btn" id="Al"> Al [13]</button>
+                <button class="btn" id="Si"> Si [14]</button>
+                <button class="btn" id="P"> P [15]</button>
+                <button class="btn" id="S"> S [16]</button>
+                <button class="btn" id="Cl"> Cl [17]</button>
+                <button class="btn" id="Ar"> Ar [18]</button>
+                <button class="btn" id="K"> K [19]</button>
+                <button class="btn" id="Ca"> Ca [20]</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button class="btn" id="Sc"> Sc [21] </button>
+                <button class="btn" id="Ti"> Ti [22] </button>
+                <button class="btn" id="V"> V [23]</button>
+                <button class="btn" id="Cr"> Cr [24]</button>
+                <button class="btn" id="Mn"> Mn [25]</button>
+                <button class="btn" id="Fe"> Fe [26]</button>
+                <button class="btn" id="Co"> Co [27]</button>
+                <button class="btn" id="Ni"> Ni [28]</button>
+                <button class="btn" id="Cu"> Cu [29]</button>
+                <button class="btn" id="Zn"> Zn [30]</button>
+            </div>
+          </div>
+
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button class="btn" id="Ga">Ga [31]</button>
+                <button class="btn" id="Ge">Ge [32]</button>
+                <button class="btn" id="As">As [33]</button>
+                <button class="btn" id="Se">Se [34]</button>
+                <button class="btn" id="Br">Br [35]</button>
+                <button class="btn" id="Kr">Kr [36]</button>
+                <button class="btn" id="Rb">Rb [37]</button>
+                <button class="btn" id="Sr">Sr [38]</button> 
+                <button class="btn" id="Y">Y [39]</button>
+                <button class="btn" id="Zr">Zr [40]</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button class="btn" id="Nb">Nb [41]</button>
+                <button class="btn" id="Mb">Mb [42]</button>
+                <button class="btn" id="Tc">Tc [43]</button>
+                <button class="btn" id="Ru">Ru [44]</button>
+                <button class="btn" id="Rh">Rh [45]</button>
+                <button class="btn" id="Pd">Pd [46]</button>
+                <button class="btn" id="Ag">Ag [47]</button> 
+                <button class="btn" id="Cd">Cd [48]</button>
+                <button class="btn" id="In">In [49]</button>
+                <button class="btn" id="Sn">Sn [50]</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button class="btn" id="Sb">Sb [51]</button>
+                <button class="btn" id="Te">Te [52]</button>
+                <button class="btn" id="I">I [53]</button>
+                <button class="btn" id="Xe">Xe [54]</button>
+                <button class="btn" id="Cs">Cs [55]</button> 
+                <button class="btn" id="Ba">Ba [56]</button>
+                <button class="btn" id="La">La [57]</button>
+                <button class="btn" id="Ce">Ce [58]</button>
+                <button class="btn" id="Pr">Pr [59]</button>
+                <button class="btn" id="Nd">Nd [60]</button>
+            </div>
+          </div>
+                
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button class="btn" id="Pm">Pm [61]</button>
+                <button class="btn" id="Sm">Sm [62]</button>
+                <button class="btn" id="Eu">Eu [63]</button> 
+                <button class="btn" id="Gd">Gd [64]</button>
+                <button class="btn" id="Tb">Tb [65]</button>
+                <button class="btn" id="Dy">Dy [66]</button>
+                <button class="btn" id="Ho">Ho [67]</button>
+                <button class="btn" id="Er">Er [68]</button>
+                <button class="btn" id="Tm">Tm [69]</button>
+                <button class="btn" id="Yb">Yb [70]</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button class="btn" id="Lu">Lu [71]</button> 
+                <button class="btn" id="Hf">Hf [72]</button>
+                <button class="btn" id="Ta">Ta [73]</button>
+                <button class="btn" id="W">W [74]</button>
+                <button class="btn" id="Re">Re [75]</button>
+                <button class="btn" id="Os">Os [76]</button>
+                <button class="btn" id="Ir">Ir [77]</button>
+                <button class="btn" id="Pt">Pt [78]</button>
+                <button class="btn" id="Au">Au [79]</button> 
+                <button class="btn" id="Hg">Hg [80]</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button class="btn" id="Tl">Tl [81]</button>
+                <button class="btn" id="Pb">Pb [82]</button>
+                <button class="btn" id="Bi">Bi [83]</button>
+                <button class="btn" id="Po">Po [84]</button>
+                <button class="btn" id="At">At [85]</button>
+                <button class="btn" id="Rn">Rn [86]</button>
+                <button class="btn" id="Fr">Fr [87]</button> 
+                <button class="btn" id="Ra">Ra [88]</button>
+                <button class="btn" id="Ac">Ac [89]</button>
+                <button class="btn" id="Th">Th [90]</button>
+            </div>
+          </div>
+                
+                
+               
+          <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+            <div class="btn-group me-2" role="group" aria-label="First group">
+                <button class="btn" id="Pa">Pa [91]</button>
+                <button class="btn" id="U">U [92]</button>
+                <button class="btn" id="Np">Np [93]</button>
+                <button class="btn" id="Pu">Pu [94]</button>
+                <button class="btn" id="Am">Am [95]</button> 
+                <button class="btn" id="Cm">Cm [96]</button>
+                <button class="btn" id="Bk">Bk [97]</button>
+                <button class="btn" id="Cf">Cf [98]</button>
+                <button class="btn" id="Es">Es [99]</button>
+                <button class="btn" id="Fm">Fm [100]</button>
+            </div>
+            <div class="btn-group me-2" role="group" aria-label="Second group">
+                <button class="btn" id="Md">Md [101]</button>
+                <button class="btn" id="No">No [102]</button>
+                <button class="btn" id="Lr">Lr [103]</button> 
+                <button class="btn" id="Rf">Rf [104]</button>
+                <button class="btn" id="Db">Db [105]</button>
+                <button class="btn" id="Sg">Sg [106]</button>
+                <button class="btn" id="Bh">Bh [107]</button>
+                <button class="btn" id="Hs">Hs [108]</button>
+                <button class="btn" id="Mt">Mt [109]</button>
+                <button class="btn" id="Ds">Ds [110]</button>
+            </div>
+            <div class="btn-group" role="group" aria-label="Third group">
+                <button class="btn" id="Rg">Rg [111]</button> 
+                <button class="btn" id="Cn">Cn [112]</button>
+                <button class="btn" id="Uut">Uut [113]</button>
+                <button class="btn" id="Fl">Fl [114]</button>
+                <button class="btn" id="Uup">Uup [115]</button>
+                <button class="btn" id="Lv">Lv [116]</button>
+                <button class="btn" id="Uus">Uus [117]</button>
+                <button class="btn" id="Uuo">Uuo [118]</button>
+            </div>
+          </div>
+               
+                
+                
+              
+               
+               
+               
+                
+         
+       
+       
+       
+        <!---->
+
+
+
+
+
+
+    <div id="footer">
+        <footer class="CoCoMain">This Project Was Made For Chemistry Lecture In `Bau` University (Polytechnic)</footer> <br>
+        <label style="
+                font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;"
+                 >By Mosa Akrm
+        </label>
+    </div>
+
+    <script src='index.js'></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js" integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js" integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ" crossorigin="anonymous"></script>
+</body>
+
+</html>
