@@ -1,1192 +1,239 @@
-let element;
-let elementC;
-let elementO;
-
-
-
-//1
-document.getElementById('H').onclick = function(){
-    element = ' Hydrogen (H) [1]'
-    elementC = ' 1S<sup>1</sup> / '
-    elementO = ''
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//2
-document.getElementById('He').onclick = function(){
-    element = ' Helium (He)	[2]'
-    elementC = ' 1S<sup>2</sup> /'
-    elementO = ''
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//3
-document.getElementById('Li').onclick = function(){
-    element = ' Lithium (Li) [3]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>1</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-
-}
-
-//4
-document.getElementById('Be').onclick = function(){
-    element = ' Beryllium (Be) [4]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//5
-document.getElementById('B').onclick = function(){
-    element = ' Boron (B) [5]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>1</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>1</sup>/'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//6
-document.getElementById('C').onclick = function(){
-    element = ' Carbon (C) [6]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>2</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>2</sup> '
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//7
-document.getElementById('N').onclick = function(){
-    element = ' Nitrogen (N) [7]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>3</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>3</sup>/'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//8
-document.getElementById('O').onclick = function(){
-    element = '  Oxygen (O) [8]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>4</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>4</sup>/'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//9
-document.getElementById('F').onclick = function(){
-    element = ' Fluorine (F) [9]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>5</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>5</sup>/'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//10
-document.getElementById('Ne').onclick = function(){
-    element = ' Neon (Ne) [10]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> /'
-    elementO = '[He]<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup>/'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//11
-document.getElementById('Na').onclick = function(){
-    element = ' Sodium (Na) [11]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>1</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//12
-document.getElementById('Mg').onclick = function(){
-    element = ' Magnesium (Mg) [12]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//13
-document.getElementById('Al').onclick = function(){
-    element = ' Aluminum (Al) [13]'
-    elementC = '  1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>1</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//14
-document.getElementById('Si').onclick = function(){
-    element = ' Silicon (Si) [14]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>2</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//15
-document.getElementById('P').onclick = function(){
-    element = 'Phosphorous (P) [15]'
-    elementC = '1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>3</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//16
-document.getElementById('S').onclick = function(){
-    element = ' Sulfur (S) [16]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>4</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//17
-document.getElementById('Cl').onclick = function(){
-    element = ' Chlorine (Cl) [17]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>5</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//18
-document.getElementById('Ar').onclick = function(){
-    element = ' Argon (Ar) [18]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> /'
-    elementO = '[Ne]<sup>1</sup><sup>0</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//19
-document.getElementById('K').onclick = function(){
-    element = ' Potassium (K) [19]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>1</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//20
-document.getElementById('Ca').onclick = function(){
-    element = ' Calcium (Ca) [20]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//21
-document.getElementById('Sc').onclick = function(){
-    element = ' Scandium (Sc) [21]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//22
-document.getElementById('Ti').onclick = function(){
-    element = ' Titanium (Ti) [22]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>2</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//23
-document.getElementById('V').onclick = function(){
-    element = ' Vanadium (V) [23]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>3</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//24
-document.getElementById('Cr').onclick = function(){
-    element = ' Chromium (Cr) [24]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>1</sup> / 3d<sup>5</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>1</sup> / 3d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//25
-document.getElementById('Mn').onclick = function(){
-    element = ' Manganese (Mn) [25]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>5</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//26
-document.getElementById('Fe').onclick = function(){
-    element = ' Iron (Fe) [26]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>6</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//27
-document.getElementById('Co').onclick = function(){
-    element = ' Cobalt (Co) [27]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>7</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//28
-document.getElementById('Ni').onclick = function(){
-    element = ' Nickel (Ni) [28]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>8</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>8</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//29
-document.getElementById('Cu').onclick = function(){
-    element = ' Copper (Cu) [29]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>1</sup> / 3d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>1</sup> / 3d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//30
-document.getElementById('Zn').onclick = function(){
-    element = ' Zinc (Zn) [30]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//31
-document.getElementById('Ga').onclick = function(){
-    element = ' Gallium (Ga) [31]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>1</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//32
-document.getElementById('Ge').onclick = function(){
-    element = ' Germanium (Ge) [32]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>2</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//33
-document.getElementById('As').onclick = function(){
-    element = ' Arsenic (As) [33]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>3</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//34
-document.getElementById('Se').onclick = function(){
-    element = ' Selenium (Se) [34]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>4</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//35
-document.getElementById('Br').onclick = function(){
-    element = ' Bromine (Br) [35]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>5</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//36
-document.getElementById('Kr').onclick = function(){
-    element = ' Krypton (Kr) [36]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> /'
-    elementO = '[Ar]<sup>1</sup><sup>8</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//37
-document.getElementById('Rb').onclick = function(){
-    element = ' Rubidium (Rb) [37]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//38
-document.getElementById('Sr').onclick = function(){
-    element = ' Strontium (Sr) [38]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//39
-document.getElementById('Y').onclick = function(){
-    element = ' Yttrium (Y) [39]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//40
-document.getElementById('Zr').onclick = function(){
-    element = ' Zirconium (Zr) [40]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>2</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//41
-document.getElementById('Nb').onclick = function(){
-    element = ' Niobium (Nb) [41]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> / 4d<sup>4</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> / 4d<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//42
-document.getElementById('Mb').onclick = function(){
-    element = ' Molybdenum (Mb) [42]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> / 4d<sup>5</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> / 4d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//43
-document.getElementById('Tc').onclick = function(){
-    element = ' Technetium (Tc) [43]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>5</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//44
-document.getElementById('Ru').onclick = function(){
-    element = ' Ruthenium (Ru) [44]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> / 4d<sup>7</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> / 4d<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//45
-document.getElementById('Rh').onclick = function(){
-    element = ' Rhodium (Rh) [45]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> / 4d<sup>8</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> / 4d<sup>8</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//46
-document.getElementById('Pd').onclick = function(){
-    element = ' Palladium (Pd) [46]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//47
-document.getElementById('Ag').onclick = function(){
-    element = ' Silver (Ag) [47]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>1</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>1</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//48
-document.getElementById('Cd').onclick = function(){
-    element = ' Cadmium (Cd) [48]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//49
-document.getElementById('In').onclick = function(){
-    element = ' Indium (In) [49]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>1</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//50
-document.getElementById('Sn').onclick = function(){
-    element = ' Tin (Sn) [50]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>2</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//51
-document.getElementById('Sb').onclick = function(){
-    element = ' Antimony (Sb) [51]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>3</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//52
-document.getElementById('Te').onclick = function(){
-    element = ' Tellurium (Te) [52]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>4</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//53
-document.getElementById('I').onclick = function(){
-    element = ' Iodine (I) [53]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>5</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//54
-document.getElementById('Xe').onclick = function(){
-    element = ' Xenon (Xe) [54]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> /'
-    elementO = '[Kr]<sup>3</sup><sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//55
-document.getElementById('Cs').onclick = function(){
-    element = ' Cesium (Cs) [55]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//56
-document.getElementById('Ba').onclick = function(){
-    element = ' Barium (Ba) [56]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-
-//57
-document.getElementById('La').onclick = function(){
-    element = ' Lanthanum (La) [57]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 5d<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 5d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//58
-document.getElementById('Ce').onclick = function(){
-    element = ' Cerium (Ce) [58]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 5d<sup>1</sup> / 4f<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 5d<sup>1</sup> / 4f<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//59
-document.getElementById('Pr').onclick = function(){
-    element = ' Praseodymium (Pr) [59]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>3</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//60
-document.getElementById('Nd').onclick = function(){
-    element = ' Neodymium (Nd) [60]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>4</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//61
-document.getElementById('Pm').onclick = function(){
-    element = ' Promethium (Pm) [61]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>5</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-//62
-document.getElementById('Sm').onclick = function(){
-    element = ' Samarium (Sm) [62]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>6</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//63
-document.getElementById('Eu').onclick = function(){
-    element = ' Europium (Eu) [63]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>7</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//64
-document.getElementById('Gd').onclick = function(){
-    element = ' Gadolinium (Gd) [64]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>7</sup> / 5d<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>7</sup> / 5d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//65
-document.getElementById('Tb').onclick = function(){
-    element = ' Terbium (Tb) [65]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>9</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>9</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//66
-document.getElementById('Dy').onclick = function(){
-    element = ' Dysprosium (Dy) [66]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>0</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//67
-document.getElementById('Ho').onclick = function(){
-    element = ' Holmium (Ho) [67]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//68
-document.getElementById('Er').onclick = function(){
-    element = ' Erbium (Er) [68]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>2</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//69
-document.getElementById('Tm').onclick = function(){
-    element = ' Thulium (Tm) [69]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>3</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//70
-document.getElementById('Yb').onclick = function(){
-    element = ' Ytterbium (Yb) [70]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//71
-document.getElementById('Lu').onclick = function(){
-    element = ' Lutetium (Lu) [71]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//72
-document.getElementById('Hf').onclick = function(){
-    element = ' Hafnium (Hf) [72]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>2</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//73
-document.getElementById('Ta').onclick = function(){
-    element = ' Tantalum (Ta) [73]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>3</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//74
-document.getElementById('W').onclick = function(){
-    element = ' Tungsten (W) [74]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>4</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//75
-document.getElementById('Re').onclick = function(){
-    element = ' Rhenium (Re) [75]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>5</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//76
-document.getElementById('Os').onclick = function(){
-    element = ' Osmium (Os) [76]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>6</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//77
-document.getElementById('Ir').onclick = function(){
-    element = ' Iridium (Ir) [77]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>7</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//78
-document.getElementById('Pt').onclick = function(){
-    element = ' Platinum (Pt) [78]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>1</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>9</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>1</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>9</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//79
-document.getElementById('Au').onclick = function(){
-    element = ' Gold (Au) [79]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>1</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>1</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//80
-document.getElementById('Hg').onclick = function(){
-    element = ' Mercury (Hg) [80]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//81
-document.getElementById('Tl').onclick = function(){
-    element = ' Thallium (Tl) [81]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>1</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//82
-document.getElementById('Pb').onclick = function(){
-    element = ' Lead (Pb) [82]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>2</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//83
-document.getElementById('Bi').onclick = function(){
-    element = ' Bismuth (Bi) [83]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>3</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//84
-document.getElementById('Po').onclick = function(){
-    element = ' Polonium (Po) [84]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>4</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//85
-document.getElementById('At').onclick = function(){
-    element = ' Astatine (At) [85]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>5</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//86
-document.getElementById('Rn').onclick = function(){
-    element = ' Radon (Rn) [86]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> /'
-    elementO = '[Xe]<sup>5</sup><sup>4</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//87
-document.getElementById('Fr').onclick = function(){
-    element = ' Francium (Fr) [87]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//88
-document.getElementById('Ra').onclick = function(){
-    element = ' Radium (Ra) [88]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//89
-document.getElementById('Ac').onclick = function(){
-    element = ' Actinium (Ac) [89]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 6d<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 6d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//90
-document.getElementById('Th').onclick = function(){
-    element = ' Thorium (Th) [90]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 6d<sup>2</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 6d<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//91
-document.getElementById('Pa').onclick = function(){
-    element = ' Protactinium (Pa) [91]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>2</sup> / 6d<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>2</sup> / 6d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//92
-document.getElementById('U').onclick = function(){
-    element = ' Uranium (U) [92]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>3</sup> / 6d<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>3</sup> / 6d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//93
-document.getElementById('Np').onclick = function(){
-    element = ' Neptunium (Np) [93]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>4</sup> / 6d<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>4</sup> / 6d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//94
-document.getElementById('Pu').onclick = function(){
-    element = ' Plutonium (Pu) [94]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>6</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//95
-document.getElementById('Am').onclick = function(){
-    element = ' Americium (Am) [95]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>7</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//96
-document.getElementById('Cm').onclick = function(){
-    element = ' Curium (Cm) [96]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>7</sup> / 6d<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>7</sup> / 6d<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//97
-document.getElementById('Bk').onclick = function(){
-    element = ' Berkelium (Bk) [97]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>9</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>9</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//98
-document.getElementById('Cf').onclick = function(){
-    element = ' Californium (Cf) [98]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>0</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//99
-document.getElementById('Es').onclick = function(){
-    element = ' Einsteinium (Es) [99]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//100
-document.getElementById('Fm').onclick = function(){
-    element = ' Fermium (Fm) [100]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>2</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//101
-document.getElementById('Md').onclick = function(){
-    element = ' Mendelevium (Md) [101]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>3</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//102
-document.getElementById('No').onclick = function(){
-    element = ' Nobelium (No) [102]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//103
-document.getElementById('Lr').onclick = function(){
-    element = ' Lawrencium (Lr) [103]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 7p<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 7p<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//104
-document.getElementById('Rf').onclick = function(){
-    element = ' Rutherfordium (Rf) [104]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>2</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//105
-document.getElementById('Db').onclick = function(){
-    element = ' Dubnium (Db) [105]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>3</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//106
-document.getElementById('Sg').onclick = function(){
-    element = ' Seaborgium (Sg) [106]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>4</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//107
-document.getElementById('Bh').onclick = function(){
-    element = ' Bohrium (Bh) [107]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>5</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//108
-document.getElementById('Hs').onclick = function(){
-    element = ' Hassium (Hs) [108]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>6</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//109
-document.getElementById('Mt').onclick = function(){
-    element = ' Meitnerium (Mt) [109]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>7</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>7</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//110
-document.getElementById('Ds').onclick = function(){
-    element = ' Darmstadtium (Ds) [110]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>8</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>8</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//111
-document.getElementById('Rg').onclick = function(){
-    element = ' Roentgenium (Rg) [111]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>9</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>9</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-
-//112
-document.getElementById('Cn').onclick = function(){
-    element = ' Copernicium (Cn) [112]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//113
-document.getElementById('Uut').onclick = function(){
-    element = ' Ununtrium (Uut) [113]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>1</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>1</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//114
-document.getElementById('Fl').onclick = function(){
-    element = ' Flerovium (Fl) [114]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>2</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>2</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//115
-document.getElementById('Uup').onclick = function(){
-    element = ' Ununpentium (Uup) [115]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>3</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>3</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//116
-document.getElementById('Lv').onclick = function(){
-    element = ' Livermorium (Lv) [116]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>4</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>4</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//117
-document.getElementById('Uus').onclick = function(){
-    element = ' Ununseptium (Uus) [117]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>5</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>5</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-//118
-document.getElementById('Uuo').onclick = function(){
-    element = ' Ununoctium (Uuo) [118]'
-    elementC = ' 1S<sup>2</sup> / 2S<sup>2</sup> / 2P<sup>6</sup> / 3S<sup>2</sup> / 3P<sup>6</sup> / 4S<sup>2</sup> / 3d<sup>1</sup><sup>0</sup> / 4P<sup>6</sup> / 5S<sup>2</sup> / 4d<sup>1</sup><sup>0</sup> / 5P<sup>6</sup> / 6S<sup>2</sup> / 4f<sup>1</sup><sup>4</sup> / 5d<sup>1</sup><sup>0</sup> / 6P<sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>6</sup> /'
-    elementO = '[Rn]<sup>8</sup><sup>6</sup> / 7S<sup>2</sup> / 5f<sup>1</sup><sup>4</sup> / 6d<sup>1</sup><sup>0</sup> / 7P<sup>6</sup> /'
-    document.getElementById('ele').innerHTML = element;
-    document.getElementById('elex').innerHTML = elementC;
-    document.getElementById('elea').innerHTML = elementO;
-}
-
-
-
-// <sup>0</sup>     <sup>1</sup>      <sup>2</sup>       <sup>3</sup>      <sup>4</sup>       <sup>5</sup>      <sup>6</sup>      <sup>7</sup>       <sup>8</sup>       <sup>9</sup>
-//    font-family: 'Aref Ruqaa', serif
+/* ============================================
+   ELECTRON CONFIGURATION CALCULATOR
+   Data-driven architecture — all 118 elements
+   ============================================ */
+
+// Element data: [symbol, name, number, fullConfig, abbreviatedConfig, category]
+const elements = [
+    ["H", "Hydrogen", 1, "1S¹", "", "nonmetal"],
+    ["He", "Helium", 2, "1S²", "", "noble-gas"],
+    ["Li", "Lithium", 3, "1S² / 2S¹", "[He] 2S¹", "alkali-metal"],
+    ["Be", "Beryllium", 4, "1S² / 2S²", "[He] 2S²", "alkaline-earth"],
+    ["B", "Boron", 5, "1S² / 2S² / 2P¹", "[He] 2S² 2P¹", "metalloid"],
+    ["C", "Carbon", 6, "1S² / 2S² / 2P²", "[He] 2S² 2P²", "nonmetal"],
+    ["N", "Nitrogen", 7, "1S² / 2S² / 2P³", "[He] 2S² 2P³", "nonmetal"],
+    ["O", "Oxygen", 8, "1S² / 2S² / 2P⁴", "[He] 2S² 2P⁴", "nonmetal"],
+    ["F", "Fluorine", 9, "1S² / 2S² / 2P⁵", "[He] 2S² 2P⁵", "halogen"],
+    ["Ne", "Neon", 10, "1S² / 2S² / 2P⁶", "[He] 2S² 2P⁶", "noble-gas"],
+    ["Na", "Sodium", 11, "1S² / 2S² / 2P⁶ / 3S¹", "[Ne] 3S¹", "alkali-metal"],
+    ["Mg", "Magnesium", 12, "1S² / 2S² / 2P⁶ / 3S²", "[Ne] 3S²", "alkaline-earth"],
+    ["Al", "Aluminum", 13, "1S² / 2S² / 2P⁶ / 3S² / 3P¹", "[Ne] 3S² 3P¹", "post-transition"],
+    ["Si", "Silicon", 14, "1S² / 2S² / 2P⁶ / 3S² / 3P²", "[Ne] 3S² 3P²", "metalloid"],
+    ["P", "Phosphorus", 15, "1S² / 2S² / 2P⁶ / 3S² / 3P³", "[Ne] 3S² 3P³", "nonmetal"],
+    ["S", "Sulfur", 16, "1S² / 2S² / 2P⁶ / 3S² / 3P⁴", "[Ne] 3S² 3P⁴", "nonmetal"],
+    ["Cl", "Chlorine", 17, "1S² / 2S² / 2P⁶ / 3S² / 3P⁵", "[Ne] 3S² 3P⁵", "halogen"],
+    ["Ar", "Argon", 18, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶", "[Ne] 3S² 3P⁶", "noble-gas"],
+    ["K", "Potassium", 19, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S¹", "[Ar] 4S¹", "alkali-metal"],
+    ["Ca", "Calcium", 20, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S²", "[Ar] 4S²", "alkaline-earth"],
+    ["Sc", "Scandium", 21, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹", "[Ar] 4S² 3d¹", "transition-metal"],
+    ["Ti", "Titanium", 22, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d²", "[Ar] 4S² 3d²", "transition-metal"],
+    ["V", "Vanadium", 23, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d³", "[Ar] 4S² 3d³", "transition-metal"],
+    ["Cr", "Chromium", 24, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S¹ / 3d⁵", "[Ar] 4S¹ 3d⁵", "transition-metal"],
+    ["Mn", "Manganese", 25, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d⁵", "[Ar] 4S² 3d⁵", "transition-metal"],
+    ["Fe", "Iron", 26, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d⁶", "[Ar] 4S² 3d⁶", "transition-metal"],
+    ["Co", "Cobalt", 27, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d⁷", "[Ar] 4S² 3d⁷", "transition-metal"],
+    ["Ni", "Nickel", 28, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d⁸", "[Ar] 4S² 3d⁸", "transition-metal"],
+    ["Cu", "Copper", 29, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S¹ / 3d¹⁰", "[Ar] 4S¹ 3d¹⁰", "transition-metal"],
+    ["Zn", "Zinc", 30, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰", "[Ar] 4S² 3d¹⁰", "transition-metal"],
+    ["Ga", "Gallium", 31, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P¹", "[Ar] 4S² 3d¹⁰ 4P¹", "post-transition"],
+    ["Ge", "Germanium", 32, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P²", "[Ar] 4S² 3d¹⁰ 4P²", "metalloid"],
+    ["As", "Arsenic", 33, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P³", "[Ar] 4S² 3d¹⁰ 4P³", "metalloid"],
+    ["Se", "Selenium", 34, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁴", "[Ar] 4S² 3d¹⁰ 4P⁴", "nonmetal"],
+    ["Br", "Bromine", 35, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁵", "[Ar] 4S² 3d¹⁰ 4P⁵", "halogen"],
+    ["Kr", "Krypton", 36, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶", "[Ar] 4S² 3d¹⁰ 4P⁶", "noble-gas"],
+    ["Rb", "Rubidium", 37, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹", "[Kr] 5S¹", "alkali-metal"],
+    ["Sr", "Strontium", 38, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S²", "[Kr] 5S²", "alkaline-earth"],
+    ["Y", "Yttrium", 39, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹", "[Kr] 5S² 4d¹", "transition-metal"],
+    ["Zr", "Zirconium", 40, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d²", "[Kr] 5S² 4d²", "transition-metal"],
+    ["Nb", "Niobium", 41, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹ / 4d⁴", "[Kr] 5S¹ 4d⁴", "transition-metal"],
+    ["Mo", "Molybdenum", 42, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹ / 4d⁵", "[Kr] 5S¹ 4d⁵", "transition-metal"],
+    ["Tc", "Technetium", 43, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d⁵", "[Kr] 5S² 4d⁵", "transition-metal"],
+    ["Ru", "Ruthenium", 44, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹ / 4d⁷", "[Kr] 5S¹ 4d⁷", "transition-metal"],
+    ["Rh", "Rhodium", 45, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹ / 4d⁸", "[Kr] 5S¹ 4d⁸", "transition-metal"],
+    ["Pd", "Palladium", 46, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 4d¹⁰", "[Kr] 4d¹⁰", "transition-metal"],
+    ["Ag", "Silver", 47, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S¹ / 4d¹⁰", "[Kr] 5S¹ 4d¹⁰", "transition-metal"],
+    ["Cd", "Cadmium", 48, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰", "[Kr] 5S² 4d¹⁰", "transition-metal"],
+    ["In", "Indium", 49, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P¹", "[Kr] 5S² 4d¹⁰ 5P¹", "post-transition"],
+    ["Sn", "Tin", 50, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P²", "[Kr] 5S² 4d¹⁰ 5P²", "post-transition"],
+    ["Sb", "Antimony", 51, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P³", "[Kr] 5S² 4d¹⁰ 5P³", "metalloid"],
+    ["Te", "Tellurium", 52, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁴", "[Kr] 5S² 4d¹⁰ 5P⁴", "metalloid"],
+    ["I", "Iodine", 53, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁵", "[Kr] 5S² 4d¹⁰ 5P⁵", "halogen"],
+    ["Xe", "Xenon", 54, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶", "[Kr] 5S² 4d¹⁰ 5P⁶", "noble-gas"],
+    ["Cs", "Cesium", 55, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S¹", "[Xe] 6S¹", "alkali-metal"],
+    ["Ba", "Barium", 56, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S²", "[Xe] 6S²", "alkaline-earth"],
+    ["La", "Lanthanum", 57, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 5d¹", "[Xe] 6S² 5d¹", "lanthanide"],
+    ["Ce", "Cerium", 58, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 5d¹ / 4f¹", "[Xe] 6S² 5d¹ 4f¹", "lanthanide"],
+    ["Pr", "Praseodymium", 59, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f³", "[Xe] 6S² 4f³", "lanthanide"],
+    ["Nd", "Neodymium", 60, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁴", "[Xe] 6S² 4f⁴", "lanthanide"],
+    ["Pm", "Promethium", 61, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁵", "[Xe] 6S² 4f⁵", "lanthanide"],
+    ["Sm", "Samarium", 62, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁶", "[Xe] 6S² 4f⁶", "lanthanide"],
+    ["Eu", "Europium", 63, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁷", "[Xe] 6S² 4f⁷", "lanthanide"],
+    ["Gd", "Gadolinium", 64, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁷ / 5d¹", "[Xe] 6S² 4f⁷ 5d¹", "lanthanide"],
+    ["Tb", "Terbium", 65, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f⁹", "[Xe] 6S² 4f⁹", "lanthanide"],
+    ["Dy", "Dysprosium", 66, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁰", "[Xe] 6S² 4f¹⁰", "lanthanide"],
+    ["Ho", "Holmium", 67, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹¹", "[Xe] 6S² 4f¹¹", "lanthanide"],
+    ["Er", "Erbium", 68, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹²", "[Xe] 6S² 4f¹²", "lanthanide"],
+    ["Tm", "Thulium", 69, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹³", "[Xe] 6S² 4f¹³", "lanthanide"],
+    ["Yb", "Ytterbium", 70, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴", "[Xe] 6S² 4f¹⁴", "lanthanide"],
+    ["Lu", "Lutetium", 71, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹", "[Xe] 6S² 4f¹⁴ 5d¹", "lanthanide"],
+    ["Hf", "Hafnium", 72, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d²", "[Xe] 6S² 4f¹⁴ 5d²", "transition-metal"],
+    ["Ta", "Tantalum", 73, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d³", "[Xe] 6S² 4f¹⁴ 5d³", "transition-metal"],
+    ["W", "Tungsten", 74, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d⁴", "[Xe] 6S² 4f¹⁴ 5d⁴", "transition-metal"],
+    ["Re", "Rhenium", 75, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d⁵", "[Xe] 6S² 4f¹⁴ 5d⁵", "transition-metal"],
+    ["Os", "Osmium", 76, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d⁶", "[Xe] 6S² 4f¹⁴ 5d⁶", "transition-metal"],
+    ["Ir", "Iridium", 77, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d⁷", "[Xe] 6S² 4f¹⁴ 5d⁷", "transition-metal"],
+    ["Pt", "Platinum", 78, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S¹ / 4f¹⁴ / 5d⁹", "[Xe] 6S¹ 4f¹⁴ 5d⁹", "transition-metal"],
+    ["Au", "Gold", 79, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S¹ / 4f¹⁴ / 5d¹⁰", "[Xe] 6S¹ 4f¹⁴ 5d¹⁰", "transition-metal"],
+    ["Hg", "Mercury", 80, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰", "[Xe] 6S² 4f¹⁴ 5d¹⁰", "transition-metal"],
+    ["Tl", "Thallium", 81, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P¹", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P¹", "post-transition"],
+    ["Pb", "Lead", 82, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P²", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P²", "post-transition"],
+    ["Bi", "Bismuth", 83, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P³", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P³", "post-transition"],
+    ["Po", "Polonium", 84, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁴", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P⁴", "post-transition"],
+    ["At", "Astatine", 85, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁵", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P⁵", "halogen"],
+    ["Rn", "Radon", 86, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶", "[Xe] 6S² 4f¹⁴ 5d¹⁰ 6P⁶", "noble-gas"],
+    ["Fr", "Francium", 87, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S¹", "[Rn] 7S¹", "alkali-metal"],
+    ["Ra", "Radium", 88, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S²", "[Rn] 7S²", "alkaline-earth"],
+    ["Ac", "Actinium", 89, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 6d¹", "[Rn] 7S² 6d¹", "actinide"],
+    ["Th", "Thorium", 90, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 6d²", "[Rn] 7S² 6d²", "actinide"],
+    ["Pa", "Protactinium", 91, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f² / 6d¹", "[Rn] 7S² 5f² 6d¹", "actinide"],
+    ["U", "Uranium", 92, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f³ / 6d¹", "[Rn] 7S² 5f³ 6d¹", "actinide"],
+    ["Np", "Neptunium", 93, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f⁴ / 6d¹", "[Rn] 7S² 5f⁴ 6d¹", "actinide"],
+    ["Pu", "Plutonium", 94, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f⁶", "[Rn] 7S² 5f⁶", "actinide"],
+    ["Am", "Americium", 95, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f⁷", "[Rn] 7S² 5f⁷", "actinide"],
+    ["Cm", "Curium", 96, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f⁷ / 6d¹", "[Rn] 7S² 5f⁷ 6d¹", "actinide"],
+    ["Bk", "Berkelium", 97, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f⁹", "[Rn] 7S² 5f⁹", "actinide"],
+    ["Cf", "Californium", 98, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁰", "[Rn] 7S² 5f¹⁰", "actinide"],
+    ["Es", "Einsteinium", 99, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹¹", "[Rn] 7S² 5f¹¹", "actinide"],
+    ["Fm", "Fermium", 100, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹²", "[Rn] 7S² 5f¹²", "actinide"],
+    ["Md", "Mendelevium", 101, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹³", "[Rn] 7S² 5f¹³", "actinide"],
+    ["No", "Nobelium", 102, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴", "[Rn] 7S² 5f¹⁴", "actinide"],
+    ["Lr", "Lawrencium", 103, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 7p¹", "[Rn] 7S² 5f¹⁴ 7p¹", "actinide"],
+    ["Rf", "Rutherfordium", 104, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d²", "[Rn] 7S² 5f¹⁴ 6d²", "transition-metal"],
+    ["Db", "Dubnium", 105, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d³", "[Rn] 7S² 5f¹⁴ 6d³", "transition-metal"],
+    ["Sg", "Seaborgium", 106, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁴", "[Rn] 7S² 5f¹⁴ 6d⁴", "transition-metal"],
+    ["Bh", "Bohrium", 107, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁵", "[Rn] 7S² 5f¹⁴ 6d⁵", "transition-metal"],
+    ["Hs", "Hassium", 108, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁶", "[Rn] 7S² 5f¹⁴ 6d⁶", "transition-metal"],
+    ["Mt", "Meitnerium", 109, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁷", "[Rn] 7S² 5f¹⁴ 6d⁷", "transition-metal"],
+    ["Ds", "Darmstadtium", 110, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁸", "[Rn] 7S² 5f¹⁴ 6d⁸", "transition-metal"],
+    ["Rg", "Roentgenium", 111, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d⁹", "[Rn] 7S² 5f¹⁴ 6d⁹", "transition-metal"],
+    ["Cn", "Copernicium", 112, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰", "[Rn] 7S² 5f¹⁴ 6d¹⁰", "transition-metal"],
+    ["Uut", "Nihonium", 113, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P¹", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P¹", "post-transition"],
+    ["Fl", "Flerovium", 114, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P²", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P²", "post-transition"],
+    ["Uup", "Moscovium", 115, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P³", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P³", "post-transition"],
+    ["Lv", "Livermorium", 116, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P⁴", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P⁴", "post-transition"],
+    ["Uus", "Tennessine", 117, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P⁵", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P⁵", "halogen"],
+    ["Uuo", "Oganesson", 118, "1S² / 2S² / 2P⁶ / 3S² / 3P⁶ / 4S² / 3d¹⁰ / 4P⁶ / 5S² / 4d¹⁰ / 5P⁶ / 6S² / 4f¹⁴ / 5d¹⁰ / 6P⁶ / 7S² / 5f¹⁴ / 6d¹⁰ / 7P⁶", "[Rn] 7S² 5f¹⁴ 6d¹⁰ 7P⁶", "noble-gas"],
+];
+
+// Superscript digit map for rendering
+const supDigits = { '0': '⁰', '1': '¹', '2': '²', '3': '³', '4': '⁴', '5': '⁵', '6': '⁶', '7': '⁷', '8': '⁸', '9': '⁹' };
+
+// Convert config text with Unicode superscripts into HTML with <sup> tags
+function configToHTML(text) {
+    if (!text) return '<span style="opacity:0.4">—</span>';
+    // Replace superscript unicode chars with <sup> tags
+    return text.replace(/([⁰¹²³⁴⁵⁶⁷⁸⁹]+)/g, (match) => {
+        const normal = match.replace(/[⁰¹²³⁴⁵⁶⁷⁸⁹]/g, ch => {
+            return Object.keys(supDigits).find(k => supDigits[k] === ch) || ch;
+        });
+        return `<sup>${normal}</sup>`;
+    });
+}
+
+// Format category name for display
+function formatCategory(cat) {
+    return cat.replace(/-/g, ' ').replace(/\b\w/g, c => c.toUpperCase());
+}
+
+// DOM references
+const grid = document.getElementById('elementsGrid');
+const searchInput = document.getElementById('searchInput');
+const searchCount = document.getElementById('searchCount');
+const resultCard = document.getElementById('resultCard');
+const resultPlaceholder = document.getElementById('resultPlaceholder');
+const resultContent = document.getElementById('resultContent');
+
+let selectedBtn = null;
+
+// Build element buttons
+function buildGrid() {
+    const fragment = document.createDocumentFragment();
+    elements.forEach(([symbol, name, number, config, abbr, category]) => {
+        const btn = document.createElement('button');
+        btn.className = `element-btn ${category}`;
+        btn.setAttribute('data-symbol', symbol);
+        btn.setAttribute('data-name', name);
+        btn.setAttribute('data-number', number);
+        btn.innerHTML = `
+            <span class="el-symbol">${symbol}</span>
+            <span class="el-number">${number}</span>
+            <span class="el-name">${name}</span>
+        `;
+        btn.addEventListener('click', () => selectElement(symbol));
+        fragment.appendChild(btn);
+    });
+    grid.appendChild(fragment);
+}
+
+// Select an element and display its configuration
+function selectElement(symbol) {
+    const el = elements.find(e => e[0] === symbol);
+    if (!el) return;
+
+    const [sym, name, number, config, abbr, category] = el;
+
+    // Update result display
+    resultPlaceholder.style.display = 'none';
+    resultContent.style.display = 'block';
+    resultCard.classList.add('active');
+
+    // Force re-animation
+    resultContent.style.animation = 'none';
+    resultContent.offsetHeight; // trigger reflow
+    resultContent.style.animation = '';
+
+    document.getElementById('badgeSymbol').textContent = sym;
+    document.getElementById('badgeNumber').textContent = number;
+    document.getElementById('elementName').textContent = `${name} (${sym})`;
+    document.getElementById('elementCategory').textContent = formatCategory(category);
+    document.getElementById('fullConfig').innerHTML = configToHTML(config);
+    document.getElementById('abbrConfig').innerHTML = configToHTML(abbr);
+
+    // Update selected button styling
+    if (selectedBtn) selectedBtn.classList.remove('selected');
+    const newBtn = grid.querySelector(`[data-symbol="${sym}"]`);
+    if (newBtn) {
+        newBtn.classList.add('selected');
+        selectedBtn = newBtn;
+    }
+}
+
+// Search / filter
+function handleSearch() {
+    const query = searchInput.value.toLowerCase().trim();
+    const buttons = grid.querySelectorAll('.element-btn');
+    let visible = 0;
+
+    buttons.forEach(btn => {
+        const sym = btn.getAttribute('data-symbol').toLowerCase();
+        const name = btn.getAttribute('data-name').toLowerCase();
+        const num = btn.getAttribute('data-number');
+
+        const match = !query || sym.includes(query) || name.includes(query) || num === query;
+        btn.classList.toggle('hidden', !match);
+        if (match) visible++;
+    });
+
+    if (query) {
+        searchCount.textContent = `${visible} / ${elements.length}`;
+    } else {
+        searchCount.textContent = '';
+    }
+}
+
+// Initialize
+buildGrid();
+searchInput.addEventListener('input', handleSearch);
+
+// Select first element on load for a nice initial state
+selectElement('H');
