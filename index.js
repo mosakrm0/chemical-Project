@@ -220,7 +220,7 @@ function handleSearch() {
         const num = btn.getAttribute('data-number');
 
         const match = !query || sym.includes(query) || name.includes(query) || num === query;
-        btn.classList.toggle('hidden', !match);
+        btn.classList.toggle('filtered-out', !match);
         if (match) visible++;
     });
 
